@@ -25,7 +25,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/creinda/css/creinda.css"
+app_include_css = "/assets/creinda/css/xyz.css"
 # app_include_js = "/assets/creinda/js/creinda.js"
 
 # include js, css files in header of web template
@@ -242,3 +242,5 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+website_route_rules = [{'from_route': '/dashboard/<path:app_path>', 'to_route': 'dashboard'},]
